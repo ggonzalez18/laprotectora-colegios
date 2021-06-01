@@ -1,0 +1,272 @@
+/* .cabecera {
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    background-color: #164284;
+    color: white;
+    margin: auto;
+    padding: 10px;
+} */
+
+.navbar {
+    background-color: #164284;
+    color: white;
+}
+
+.nav_lupa {
+    width: 20px;
+    height: 20px;
+}
+
+.titulo {
+    color: #164284;
+}
+
+.bread-crumb {
+    display: flex;
+    padding: .75rem 1rem;
+    list-style: none;
+}
+
+.bread-crumb-separate.bread-crumb-separate::before {
+    padding-right: .5rem;
+    padding: 0rem .5rem;
+    color: #164284;
+    content: ">";
+    font-weight: bolder;
+}
+
+.enlace_text {
+    text-decoration: none;
+    color: #727475;
+    font-size: 16px;
+}
+
+.enlace_text:hover {
+    text-decoration: none;
+    color: #164284;
+    font-weight: bold;
+}
+
+.titulo_responsive {
+    position: absolute;
+    top: 300px;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+.FE_colegios_btn_azul {
+    background-color: #164284;
+    color: white;
+    border: 0;
+}
+
+.caja_prebasica {
+    background-color: #C0D100;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+}
+
+.caja_basica {
+    background-color: #7AB24D;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+}
+
+.caja_tecnico {
+    background-color: #0081C2;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+}
+
+.fondo {
+    background-color: #E1E7EF;
+}
+
+.banner_resp {
+    width: 100%;
+}
+
+.fondo_responsivo {
+    background-color: #E1E7EF;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.dropdown-menu {
+    color: white!important;
+    background-color: #164284c2!important;
+    border: 0 !important;
+    border-radius: 0!important;
+}
+
+.dropdown-item {
+    color: white!important;
+}
+
+.dropdown-item:hover {
+    font-weight: bold!important;
+    color: white!important;
+    background-color: #164284!important;
+}
+
+.FE_colegios_btn_celeste {
+    background-color: #0081C2;
+    border: 0;
+    color: white;
+}
+
+.btn {
+    background-color: white;
+}
+
+.banner_img {
+    background-image: url("/img/banner_\ fundacion_educacional.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+}
+
+.banner_logo {
+    position: absolute;
+    width: 200px;
+    top: 290px;
+    right: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.colegios_prebasica {
+    background-color: #C0D100;
+    color: white;
+    border: 0;
+}
+
+.colegios_basica {
+    background-color: #164284;
+    color: white;
+    border: 0;
+}
+
+.colegios_tecnicos {
+    background-color: #0081C2;
+    color: white;
+    border: 0;
+}
+
+.caja-cards_colegios {
+    background-color: white;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 200px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    /* width: 10%; */
+}
+
+.card-image-top-educacion1 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/cards_colegio_3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion2 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/card_colegio_1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion3 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/card_colegio_2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion4 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/card_colegio_4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion5 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/card_colegio_5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion6 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/card_colegio_6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    color: black!important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%!important;
+}
+
+.card-float-interior-with-img {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 250px;
+    margin: 15px 10px;
+}
+
+.footer {
+    margin: 0%;
+    background-color: #164284;
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* _________________________________________________
+responsive */

@@ -1,0 +1,498 @@
+/* clases desktop */
+
+
+/* header */
+
+.cabecera {
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    background-color: #164284;
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #164284;
+    color: white;
+}
+
+.nav_lupa {
+    width: 20px;
+    height: 20px;
+}
+
+.btn {
+    background-color: white;
+}
+
+
+/* body */
+
+.FE_banner_img {
+    background-image: url("/img/banner_\ fundacion_educacional.png");
+    /* position: relative; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-height: 350px;
+    margin-top: 20px;
+}
+
+.FE_titulo {
+    color: #164284;
+}
+
+.caja_botones {
+    justify-content: center;
+    left: 60px;
+    position: absolute;
+}
+
+.botones_banner {
+    background-color: white;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    margin: -50px 0px 0px 0px;
+    padding: 15px;
+}
+
+.caja_prebasica {
+    background-color: #C0D100;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+}
+
+.caja_basica {
+    background-color: #164284;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+}
+
+.caja_tecnico {
+    background-color: #0081C2;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+}
+
+.banner_resp {
+    width: 100%;
+}
+
+.hitos {
+    background-color: #E1E7EF;
+    min-height: 450px;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.caja-mision-vision {
+    background-color: white;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 200px;
+    margin: 0px 0px -50px 0px;
+    padding: 15px;
+}
+
+.caja-cifras {
+    background-color: white;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 200px;
+    margin: -50px 0px 0px 0px;
+    padding: 15px;
+}
+
+.texto_cifras {
+    color: #164284;
+}
+
+.caja_modelo {
+    height: 400px;
+    color: #164284;
+}
+
+.caja-testimonios-educcionales {
+    background-color: white;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 200px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+.background_section {
+    height: 100px;
+    width: 100%;
+}
+
+.card-image-top-educacion1 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/t1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion2 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/t2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion3 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/t3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion4 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/t4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion5 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/t5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-educacion6 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/t6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-ME-acad {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/acad_resp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-float-interior-with-img {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 250px;
+    margin: 15px 10px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    color: black!important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%!important;
+}
+
+.marcas {
+    height: 30px;
+}
+
+
+/* footer */
+
+.footer {
+    margin: 0%;
+    background-color: #164284;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/*____________ clases responsive__________________ */
+
+.titulo_responsive {
+    position: absolute;
+    top: 190px;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+.imagen_titulo_responsive {
+    position: absolute;
+    top: 130px;
+    justify-content: space-around;
+    display: flex;
+    height: 8%;
+    align-items: center;
+}
+
+.fondo_responsivo {
+    background-color: #E1E7EF;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.dropdown-menu {
+    color: white!important;
+    background-color: #164284c2!important;
+    border: 0 !important;
+    border-radius: 0!important;
+}
+
+.dropdown-item {
+    color: white!important;
+}
+
+.dropdown-item:hover {
+    font-weight: bold!important;
+    color: white!important;
+    background-color: #164284!important;
+}
+
+
+/* carrusel modelo educativo responsive */
+
+.card-image-top-ME-esp {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/esp_resp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-ME-soc {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/soc_resp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* alianzas responsive */
+
+.card-image-top-AE-1 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/lapiz_resp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-AE-2 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/herramienta_resp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-AE-3 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/avion_resp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-AE-4 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/ampolleta_resp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-AE-5 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("./img/neumatico_resp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-interior-home {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 80%;
+}
+
+.banner_home1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url("../img/FE_banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-btn-home {
+    height: 55px;
+    padding: .5rem 1rem;
+    display: block;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.664);
+    color: rgb(78, 78, 78);
+    margin: 0px 10px;
+    width: 250px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.banner-btn-home:hover {
+    border: 1px solid transparent;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+}
+
+.enlace-none {
+    text-decoration: none;
+}
+
+.banner-btn-home-green {
+    height: 55px;
+    padding: .5rem 1rem;
+    display: block;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: center;
+    background-color: #7ab24dc5;
+    color: white;
+    margin: 0px 10px;
+    width: 250px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.banner-btn-home-green:hover {
+    border: 1px solid transparent;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #7AB24D;
+}
+
+
+/* breadcrum */
+
+.bread-crumb {
+    display: flex;
+    padding: .75rem 1rem;
+    list-style: none;
+}
+
+.bread-crumb-separate.bread-crumb-separate::before {
+    /* padding-right: .5rem; */
+    padding: 0rem .5rem;
+    color: #7AB24D;
+    content: ">";
+    font-weight: bolder;
+}
+
+.enlace_text {
+    text-decoration: none;
+    color: #727475;
+    font-size: 16px;
+}
+
+.enlace_text:hover {
+    text-decoration: none;
+    color: #7AB24D;
+    font-weight: bold;
+}
+
+.enlace-none {
+    text-decoration: none;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #164284;
+    color: white;
+    padding: 20px;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.66);
+    text-align: left;
+}
+
+.footer-text:hover {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.footer-parrafo-text {
+    margin: 0px 0px 5px 0px;
+}
